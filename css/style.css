@@ -856,7 +856,7 @@ body.dark{
   background: linear-gradient(45deg, #fc036b, #fff, #41031d);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 8s linear infinite;
+  animation: animate 1s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
