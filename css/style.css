@@ -144,12 +144,13 @@ header {
 
 .header-content {
   font-family: var(--ff-lora);
-  letter-spacing: 0.5rem;
+  letter-spacing: 0rem;
   color: whitesmoke;
-  text-align: center;
+  text-align: left;
   z-index: 1;
   padding: 4rem;
   margin-bottom: 150px;
+	margin-left: 10px;
 }
 
 .header-content a {
