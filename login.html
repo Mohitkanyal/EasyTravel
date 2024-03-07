@@ -13,13 +13,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
         if($count==1) {
             header("Location:index.html");
         }
-        else {
-            echo '<script>
-                window.location.href = "index.html";
-                alert("Login failed . Invalid username or password!!")
-                </script>';
-        }
-    else "<script type='text/javascript'> alert('wrong username or password ') </script>";
+    
+    else 
+{"<script type='text/javascript'> alert('wrong username or password ') </script>";
     }
 
 }
