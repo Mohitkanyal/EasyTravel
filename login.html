@@ -19,13 +19,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
                 alert("Login failed . Invalid username or password!!")
                 </script>';
         }
+    else "<script type='text/javascript'> alert('wrong username or password ') </script>";
+    }
 
-        
-        echo "<script type='text/javascript'> alert('wrong username or password ') </script>";
-    }
-    else {
-        echo "<script type='text/javascript'> alert('wrong username or password ') </script>";
-    }
 }
 ?>
 
@@ -46,7 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
             <input type="password" name="password" Required>
             <input type="submit" name="" value="Submit">
         </form>
-        <p> Don't have an account? <a href="./signup.html"> Sign-up here </a></p>
+        <p> Don't have an account? <a href="./Signup.html"> Sign-up here </a></p>
 
 </body>
 </html>
